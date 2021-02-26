@@ -1,0 +1,1 @@
+python -m manim manim_sandbox/videos/Mandelbrot.py -pl

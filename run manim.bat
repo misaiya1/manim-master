@@ -1,0 +1,1 @@
+python -m manin example_scenes.py -pl
