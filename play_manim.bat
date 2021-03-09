@@ -1,1 +1,1 @@
-python -m manim manim_sandbox/videos/Mandelbrot.py -pl
+python -m manim English/6b_plots_3D/6b_plots_3D.py -pl

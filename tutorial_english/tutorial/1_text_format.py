@@ -1,4 +1,4 @@
-from manimlib.imports import *
+from big_ol_pile_of_manim_imports import *
 
 class WriteText(Scene): 
     def construct(self): 
@@ -18,34 +18,34 @@ class Formula(Scene):
         self.play(Write(formula))
         self.wait(3)
 
-class TipesOfText(Scene): 
+class TypesOfText(Scene): 
     def construct(self): 
-        typesOfText = TextMobject("""
+        tipesOfText = TextMobject("""
             This is a regular text,
             $this is a formula$,
             $$this is a formula$$
             """)
-        self.play(Write(typesOfText))
+        self.play(Write(tipesOfText))
         self.wait(3)
 
-class TipesOfText2(Scene): 
+class TypesOfText2(Scene): 
     def construct(self): 
-        typesOfText = TextMobject("""
+        tipesOfText = TextMobject("""
             This is a regular text,
             $\\frac{x}{y}$,
             $$x^2+y^2=a^2$$
             """)
-        self.play(Write(typesOfText))
+        self.play(Write(tipesOfText))
         self.wait(3)
 
 class DisplayFormula(Scene): 
     def construct(self): 
-        typesOfText = TextMobject("""
+        tipesOfText = TextMobject("""
             This is a regular text,
             $\\displaystyle\\frac{x}{y}$,
             $$x^2+y^2=a^2$$
             """)
-        self.play(Write(typesOfText))
+        self.play(Write(tipesOfText))
         self.wait(3)
 
 class TextInCenter(Scene):
@@ -148,7 +148,7 @@ class RotateObject(Scene):
         textM.rotate(PI)
         self.wait(2)
 
-class MirrorObject(Scene):
+class FlipObject(Scene):
     def construct(self):
         textM = TextMobject("Text")
         textM.flip(UP)

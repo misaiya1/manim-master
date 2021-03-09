@@ -3,8 +3,8 @@ import os
 
 f = open('play_manim.bat', 'w')
 
-#py_file_name = 'example_scenes.py'
-
+py_file_name = 'example_scenes.py'
+py_file_name = 'English/6b_plots_3D/6b_plots_3D.py'
 #demo
 #py_file_name = 'manim_sandbox/demo/ThreeD_demo.py'
 #py_file_name = 'manim_sandbox/demo/Updater_demo.py'
@@ -19,7 +19,7 @@ f = open('play_manim.bat', 'w')
 
 #videos
 #py_file_name = 'manim_sandbox/videos/Bezier.py'
-py_file_name = 'manim_sandbox/videos/Mandelbrot.py'
+#py_file_name = 'manim_sandbox/videos/Mandelbrot.py'
 #py_file_name = 'manim_sandbox/videos/Nameplate_4K.py'
 #py_file_name = 'manim_sandbox/videos/SandpileModel.py'
 

@@ -1,4 +1,4 @@
-from manimlib.imports import *
+from big_ol_pile_of_manim_imports import *
 
 COLOR_P="#3EFC24"
 
