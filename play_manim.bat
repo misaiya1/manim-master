@@ -1,1 +1,1 @@
-python -m manim English/6b_plots_3D/6b_plots_3D.py -pl
+python -m manim tutorial/9_proyect_1.py -pl

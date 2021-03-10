@@ -4,7 +4,7 @@ import os
 f = open('play_manim.bat', 'w')
 
 py_file_name = 'example_scenes.py'
-py_file_name = 'English/6b_plots_3D/6b_plots_3D.py'
+py_file_name = 'tutorial/9_proyect_1.py'
 #demo
 #py_file_name = 'manim_sandbox/demo/ThreeD_demo.py'
 #py_file_name = 'manim_sandbox/demo/Updater_demo.py'

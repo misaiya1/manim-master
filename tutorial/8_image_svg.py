@@ -34,7 +34,7 @@ class CheckSVG(Scene):
             width_size=None
             height_size=FRAME_HEIGHT
 
-        if self.svg_type=="svg":
+        if self.svg_type=="misaka_new":
             self.imagen=SVGMobject(
                 "%s"%self.file,
                 #fill_opacity = 1,

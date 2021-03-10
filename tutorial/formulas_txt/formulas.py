@@ -1,5 +1,5 @@
 from manimlib.imports import *
-from tutorial_english.tutorial.svg_classes import CheckFormulaByTXT
+from tutorial.svg_classes import CheckFormulaByTXT
 from io import *
 
 formulas=[]

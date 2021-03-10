@@ -1,6 +1,6 @@
 from manimlib.imports import *
 #Import formulas:
-from tutorial_english.tutorial.formulas_txt.formulas import formulas
+from tutorial.formulas_txt.formulas import formulas
 
 class SolveGeneralQuadraticEquation(Scene):
 	def construct(self):
